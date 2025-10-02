@@ -3,11 +3,8 @@ import { StyleSheet } from "react-native";
 export default StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'center',
     alignItems: 'center',
-    alignSelf: 'center',
-    width: '100%',
-    position: 'relative',
+    justifyContent: 'center',
     backgroundColor: '#fff',
   },
   countdownButton: {

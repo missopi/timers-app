@@ -1,10 +1,12 @@
 import { View, Text, TouchableOpacity } from 'react-native';
 import styles from './styles/Styles';
 import Timer from '../assets/icons/timer.svg';
+import TimerLogo from '../assets/andNext-timers-green00bf63';
 
 export default function HomeScreen({ navigation }) {
   return (
     <View style={styles.container}>
+      <TimerLogo width={280} height={350} />
       <View style={styles.buttonRow}>
         <TouchableOpacity style={styles.timerButton} onPress={() => navigation.navigate('Timers')}>
           <Timer width={70} height={70} />
